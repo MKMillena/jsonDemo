@@ -35,4 +35,4 @@ jobs:
     - name: Executar o script para verificar se tudo funciona
       run: |
         # <-- AQUI ESTÁ A ALTERAÇÃO!
-        python primeiro_programa/POO_py/project_1.py
+        python test.py
