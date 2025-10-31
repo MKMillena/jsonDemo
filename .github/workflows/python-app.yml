@@ -31,8 +31,16 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    # NOVO PASSO DE DIAGNÓSTICO!
+    # Este passo vai nos mostrar a verdade sobre o ambiente do robô.
+    - name: 'Diagnostico: Onde estou e o que vejo?'
+      run: |
+        echo "--- O robo esta executando a partir desta pasta:"
+        pwd
+        echo "--- E estes sao todos os arquivos e pastas que ele ve:"
+        ls -R
+
     # Passo 4: O robô executa seu script principal com o caminho correto
     - name: Executar o script para verificar se tudo funciona
       run: |
-        # <-- AQUI ESTÁ A ALTERAÇÃO!
         python test.py
