@@ -38,4 +38,4 @@ jobs:
     # Troque 'seu_arquivo_principal.py' pelo nome real do seu script.
     - name: Executar o script para verificar se tudo funciona
       run: |
-        python primeiro_programa/POO_py/project_1.py
+        python teste.py
