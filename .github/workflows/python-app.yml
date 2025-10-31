@@ -35,4 +35,4 @@ jobs:
     - name: Executar o script para verificar se tudo funciona
       run: |
         # <-- AQUI ESTÁ A ALTERAÇÃO!
-        python jsonDemo/test.py
+        python test.py
