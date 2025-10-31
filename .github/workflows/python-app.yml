@@ -43,4 +43,4 @@ jobs:
     # Passo 4: O robô executa seu script principal com o caminho correto
     - name: Executar o script para verificar se tudo funciona
       run: |
-        python test.py
+        python teste.py
